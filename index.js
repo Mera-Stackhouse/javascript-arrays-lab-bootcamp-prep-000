@@ -31,3 +31,11 @@ function prependKitten(name) {
   var newKittens = [name, ...kittens]
   return newKittens
 }
+
+function removeLastKitten() {
+  var newKittens = kittens
+  newKittens.pop()
+  return newKittens
+  
+  //return kittens.slice(0, kittens.length - 1)
+}

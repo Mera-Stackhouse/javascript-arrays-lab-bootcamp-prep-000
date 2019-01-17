@@ -36,10 +36,11 @@ function removeLastKitten() {
   console.log(kittens)
   var newKittens = kittens
   console.log(kittens)
+  console.log(newKittens)
   newKittens.pop()
   console.log(kittens)
+  console.log(newKittens)
   return newKittens
-  console.log(kittens)
   
   //return kittens.slice(0, kittens.length - 1)
 }
